@@ -11,6 +11,15 @@
 		195CBAE52A8B767700B31FA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195CBAE42A8B767700B31FA3 /* ContentView.swift */; };
 		195CBAE72A8B767700B31FA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195CBAE62A8B767700B31FA3 /* Assets.xcassets */; };
 		195CBAEA2A8B767700B31FA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195CBAE92A8B767700B31FA3 /* Preview Assets.xcassets */; };
+		195CBAF22A8B772300B31FA3 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195CBAF12A8B772300B31FA3 /* Login.swift */; };
+		195CBAF52A8B781C00B31FA3 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195CBAF42A8B781C00B31FA3 /* View+Extensions.swift */; };
+		195CBAF72A8B79BA00B31FA3 /* CustomTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195CBAF62A8B79BA00B31FA3 /* CustomTF.swift */; };
+		195CBAF92A8B7FCF00B31FA3 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195CBAF82A8B7FCF00B31FA3 /* GradientButton.swift */; };
+		19F61EE52A8BB0E700147DC7 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F61EE42A8BB0E700147DC7 /* SignUp.swift */; };
+		19F61EE72A8BB2F500147DC7 /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F61EE62A8BB2F500147DC7 /* ForgotPassword.swift */; };
+		19F61EE92A8BB5AD00147DC7 /* PasswordResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F61EE82A8BB5AD00147DC7 /* PasswordResetView.swift */; };
+		19F61EEB2A8BB6CA00147DC7 /* OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F61EEA2A8BB6CA00147DC7 /* OTPView.swift */; };
+		19F61EED2A8BB87300147DC7 /* OTPVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F61EEC2A8BB87300147DC7 /* OTPVerificationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		195CBAE42A8B767700B31FA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		195CBAE62A8B767700B31FA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		195CBAE92A8B767700B31FA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		195CBAF12A8B772300B31FA3 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		195CBAF42A8B781C00B31FA3 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		195CBAF62A8B79BA00B31FA3 /* CustomTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTF.swift; sourceTree = "<group>"; };
+		195CBAF82A8B7FCF00B31FA3 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		19F61EE42A8BB0E700147DC7 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		19F61EE62A8BB2F500147DC7 /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		19F61EE82A8BB5AD00147DC7 /* PasswordResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetView.swift; sourceTree = "<group>"; };
+		19F61EEA2A8BB6CA00147DC7 /* OTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPView.swift; sourceTree = "<group>"; };
+		19F61EEC2A8BB87300147DC7 /* OTPVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +69,8 @@
 		195CBAE12A8B767700B31FA3 /* LoginApp */ = {
 			isa = PBXGroup;
 			children = (
+				195CBAF32A8B780A00B31FA3 /* Helpers */,
+				195CBAF02A8B770500B31FA3 /* View */,
 				195CBAE22A8B767700B31FA3 /* LoginAppApp.swift */,
 				195CBAE42A8B767700B31FA3 /* ContentView.swift */,
 				195CBAE62A8B767700B31FA3 /* Assets.xcassets */,
@@ -65,6 +85,29 @@
 				195CBAE92A8B767700B31FA3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		195CBAF02A8B770500B31FA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				195CBAF12A8B772300B31FA3 /* Login.swift */,
+				195CBAF62A8B79BA00B31FA3 /* CustomTF.swift */,
+				195CBAF82A8B7FCF00B31FA3 /* GradientButton.swift */,
+				19F61EE42A8BB0E700147DC7 /* SignUp.swift */,
+				19F61EE62A8BB2F500147DC7 /* ForgotPassword.swift */,
+				19F61EE82A8BB5AD00147DC7 /* PasswordResetView.swift */,
+				19F61EEA2A8BB6CA00147DC7 /* OTPView.swift */,
+				19F61EEC2A8BB87300147DC7 /* OTPVerificationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		195CBAF32A8B780A00B31FA3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				195CBAF42A8B781C00B31FA3 /* View+Extensions.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +180,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19F61EE52A8BB0E700147DC7 /* SignUp.swift in Sources */,
+				19F61EED2A8BB87300147DC7 /* OTPVerificationView.swift in Sources */,
+				195CBAF22A8B772300B31FA3 /* Login.swift in Sources */,
+				195CBAF92A8B7FCF00B31FA3 /* GradientButton.swift in Sources */,
+				19F61EE72A8BB2F500147DC7 /* ForgotPassword.swift in Sources */,
 				195CBAE52A8B767700B31FA3 /* ContentView.swift in Sources */,
+				195CBAF52A8B781C00B31FA3 /* View+Extensions.swift in Sources */,
+				19F61EEB2A8BB6CA00147DC7 /* OTPView.swift in Sources */,
+				19F61EE92A8BB5AD00147DC7 /* PasswordResetView.swift in Sources */,
+				195CBAF72A8B79BA00B31FA3 /* CustomTF.swift in Sources */,
 				195CBAE32A8B767700B31FA3 /* LoginAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +327,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +357,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
